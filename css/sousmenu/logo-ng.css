@@ -113,30 +113,32 @@ nav {
 
 .titre0 {
     color: white;
-    margin-left: 871px;
-    margin-top: 24px;
+    margin-left: 100px;
+    margin-top: 100px;
 }
-
 
 
 /*caroussel*/
 .p {
     color: white;
-    margin-top: 13px;
-    margin-left: 131px;
+    margin-top: -158px;
+    margin-left: 35px;
     font-size: 30px;
+
   }
 
 
 .carrousel {
     position: relative;
-    width: 400px;
+    width: 1149px;
     overflow: hidden;
     border-radius: 10px;
     margin-left: 85px;
     height: 400px;
-    margin-top: 25px;
-  }
+    margin-top: 90px;
+    box-shadow: 0px 2px 6px rgb(155, 155, 155);
+} 
+
   
   .carrousel-wrapper {
       display: flex;
@@ -199,10 +201,12 @@ nav {
     width: 400px;
     overflow: hidden;
     border-radius: 10px;
-    margin-left: 521px;
+    margin-left: 1362px;
     height: 400px;
-    margin-top: -447px;
-  }
+    margin-top: -398px;
+    box-shadow: 0px 2px 6px rgb(155, 155, 155);
+}
+
   
   .carrousel-wrapper2 {
       display: flex;
@@ -253,23 +257,15 @@ nav {
       }
   }  
 
-  .c  {
-    color: white;
-    margin-top: 13px;
-    margin-left: 1098px;
-    font-size: 30px;
-   }   
-
   .carrousel3 {
     position: relative;
-    width: 400px;
+    width: 899px;
     overflow: hidden;
     border-radius: 10px;
-    margin-left: 957px;
-    height: 400px;
-    margin-top: -447px;
-
-  }
+    margin-left: 131px;
+    height: 2121px;
+    margin-top: 149px;
+ }
   
   .carrousel-wrapper3 {
       display: flex;
@@ -293,281 +289,10 @@ nav {
       object-fit: cover;
       border-radius: 10px;
   }
-  
-  /* Animation du fade */
-  @keyframes fadeIn {
-      0% {
-          opacity: 0;
-      }
-      100% {
-          opacity: 1;
-      }
-  }
-  
-  /* Animation pour faire défiler les images automatiquement */
-  @keyframes moveCarousel {
-      0% {
-          transform: translateX(0);
-      }
-      33.33% {
-          transform: translateX(-100%);
-      }
-      66.66% {
-          transform: translateX(-200%);
-      }
-      100% {
-          transform: translateX(0);
-      }
-  }    
 
-  .ph {
-    color: white;
-    margin-top: 13px;
-    margin-left: 1421px;
-    font-size: 30px;
-   }   
-
-  .carrousel4 {
-    position: relative;
-    width: 400px;
-    overflow: hidden;
-    border-radius: 10px;
-    margin-left: 1397px;
-    height: 400px;
-    margin-top: -453px;
-}
-
-
-  
-  .carrousel-wrapper4 {
-      display: flex;
-      position: relative;
-      animation: moveCarousel 0.1.15s linear infinite; /* Animation du défilement automatique */
-  }
-  
-  .carrousel-item4 {
-      min-width: 100%;
-      height: 398px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      opacity: 0;
-      animation: fadeIn 20s forwards;
-  }
-  
-  .carrousel-item4 img {
-      width: 400px;
-      height: 400px;
-      object-fit: cover;
-      border-radius: 10px;
-  }
-  
-  /* Animation du fade */
-  @keyframes fadeIn {
-      0% {
-          opacity: 0;
-      }
-      100% {
-          opacity: 1;
-      }
-  }
-  
-  /* Animation pour faire défiler les images automatiquement */
-  @keyframes moveCarousel {
-      0% {
-          transform: translateX(0);
-      }
-      33.33% {
-          transform: translateX(-100%);
-      }
-      66.66% {
-          transform: translateX(-200%);
-      }
-      100% {
-          transform: translateX(0);
-      }
-  }    
-
-  .titre1 {
-    color: white;
-    margin-left: 871px;
-    margin-top: 35px;
-  } 
-
-  .ill {
-    color: white;
-    margin-top: 13px;
-    margin-left: 184px;
-    font-size: 30px;
-   }   
-
-  .carrousel5 {
-    position: relative;
-    width: 400px;
-    overflow: hidden;
-    border-radius: 10px;
-    margin-left: 85px;
-    height: 400px;
-    margin-top:41px;
-}
-
-  
-  .carrousel-wrapper5 {
-      display: flex;
-      position: relative;
-      animation: moveCarousel 0.1.15s linear infinite; /* Animation du défilement automatique */
-  }
-  
-  .carrousel-item5 {
-      min-width: 100%;
-      height: 398px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      opacity: 0;
-      animation: fadeIn 20s forwards;
-  }
-  
-  .carrousel-item5 img {
-      width: 400px;
-      height: 400px;
-      object-fit: cover;
-      border-radius: 10px;
-  }
-  
-  /* Animation du fade */
-  @keyframes fadeIn {
-      0% {
-          opacity: 0;
-      }
-      100% {
-          opacity: 1;
-      }
-  }
-  
-  /* Animation pour faire défiler les images automatiquement */
-  @keyframes moveCarousel {
-      0% {
-          transform: translateX(0);
-      }
-      33.33% {
-          transform: translateX(-100%);
-      }
-      66.66% {
-          transform: translateX(-200%);
-      }
-      100% {
-          transform: translateX(0);
-      }
-  }      
-
-  .ani {
-    color: white;
-    margin-top: 13px;
-    margin-left: 607px;
-    font-size: 30px;
-}
-  
-  .carrousel6 {
-    position: relative;
-    width: 400px;
-    overflow: hidden;
-    border-radius: 10px;
-    margin-left: 520px;
-    height: 400px;
-    margin-top: -454px;
-}
-
-
-  
-  .carrousel-wrapper6 {
-      display: flex;
-      position: relative;
-      animation: moveCarousel 0.1.15s linear infinite; /* Animation du défilement automatique */
-  }
-  
-  .carrousel-item6 {
-      min-width: 100%;
-      height: 398px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      opacity: 0;
-      animation: fadeIn 20s forwards;
-  }
-  
-  .carrousel-item6 img {
-      width: 400px;
-      height: 400px;
-      object-fit: cover;
-      border-radius: 10px;
-  }
-  
-  /* Animation du fade */
-  @keyframes fadeIn {
-      0% {
-          opacity: 0;
-      }
-      100% {
-          opacity: 1;
-      }
-  }
-  
-  /* Animation pour faire défiler les images automatiquement */
-  @keyframes moveCarousel {
-      0% {
-          transform: translateX(0);
-      }
-      33.33% {
-          transform: translateX(-100%);
-      }
-      66.66% {
-          transform: translateX(-200%);
-      }
-      100% {
-          transform: translateX(0);
-      }
-  }    
-
-  .mon {
-    color: white;
-    margin-top: 25px;
-    margin-left: 95px;
-    font-size: 30px;
-   }  
-
-  .carrousel7 {
-    position: relative;
-    width: 400px;
-    overflow: hidden;
-    border-radius: 10px;
-    margin-left: 85px;
-    height: 400px;
-    margin-top: 111px;
-}
-
-  
-  .carrousel-wrapper7 {
-      display: flex;
-      position: relative;
-      animation: moveCarousel 0.1.15s linear infinite; /* Animation du défilement automatique */
-  }
-  
-  .carrousel-item7 {
-      min-width: 100%;
-      height: 398px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      opacity: 0;
-      animation: fadeIn 20s forwards;
-  }
-  
-  .carrousel-item7 img {
-      width: 400px;
-      height: 400px;
-      object-fit: cover;
-      border-radius: 10px;
+  .logo-ng {
+    height: 900px;
+    width: 900px;
   }
   
   /* Animation du fade */
@@ -595,13 +320,14 @@ nav {
           transform: translateX(0);
       }
   }  
-
-
-  .titre02 {
-    color: white;
-    margin-left: 871px;
-    margin-top: 24px;
-}
+  
+  .logo-app {
+    height: 100px;
+    height: 100px;
+    margin-left: 1366px;
+    margin-top: 29px;
+  }
+  
 
 
   /* Responsive */
