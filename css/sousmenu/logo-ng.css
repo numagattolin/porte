@@ -257,15 +257,48 @@ nav {
       }
   }  
 
-  .carrousel3 {
+.titre1 {
+    color: white;
+    margin-left: 1365px;
+    margin-top: 40px;
+}
+
+.logo-app {
+    height: 80px;
+    width: 80px;
+    margin-left: 1488px;
+    margin-top: -51px;
+}
+
+.titre2 {
+    color: white;
+    margin-left: 100px;
+    margin-top: 26px;
+}
+
+.video {
+    margin-left: 100px;
+    margin-top: 4px;
+    height: 437px;
+    width: 800px;
+}
+
+.titre3 {
+    color: white;
+    margin-left: 914px;
+    margin-top: -476px;
+}
+
+.carrousel3 {
     position: relative;
-    width: 899px;
+    width: 400px;
     overflow: hidden;
     border-radius: 10px;
-    margin-left: 131px;
-    height: 2121px;
-    margin-top: 149px;
- }
+    margin-left: 924px;
+    height: 400px;
+    margin-top: 32px;
+
+  }
   
   .carrousel-wrapper3 {
       display: flex;
@@ -288,11 +321,6 @@ nav {
       height: 400px;
       object-fit: cover;
       border-radius: 10px;
-  }
-
-  .logo-ng {
-    height: 900px;
-    width: 900px;
   }
   
   /* Animation du fade */
@@ -319,37 +347,19 @@ nav {
       100% {
           transform: translateX(0);
       }
-  }  
-  
-  .logo-app {
-    height: 100px;
-    height: 100px;
-    margin-left: 1366px;
-    margin-top: 29px;
-  }
-
-  .ph {
-    color: white;
-    margin-top: 13px;
-    margin-left: 1471px;
-    font-size: 30px;
-   }   
+  } 
 
   .carrousel4 {
     position: relative;
     width: 400px;
     overflow: hidden;
     border-radius: 10px;
-    margin-left: 1046px;
+    margin-left: 1397px;
     height: 400px;
-    margin-top: -1865px;
+    margin-top: -453px;
 }
 
-.titre1 {
-    color: white;
-    margin-left: 100px;
-    margin-top: 100px;
-}
+
   
   .carrousel-wrapper4 {
       display: flex;
@@ -399,8 +409,6 @@ nav {
           transform: translateX(0);
       }
   }    
-  
-
 
   /* Responsive */
 @media screen and (max-width: 1024px) {
