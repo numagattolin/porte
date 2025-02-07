@@ -1,0 +1,499 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+
+body {
+    font-family: "Montserrat Alternates", serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #000000;
+}
+
+header {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    color: white;
+    box-shadow: 0px 2px 6px rgb(155, 155, 155);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 20px;
+    color: white;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+
+}
+
+.menu li {
+    position: relative;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: background 0.3s;
+    margin-left: 75px;
+}
+
+.menu a:hover {
+    color: blue;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+    padding: 10px 0;
+    list-style: none;
+    border-radius: 5px;
+    min-width: 200px;
+    z-index: 10;
+
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+
+}
+
+.submenu a:hover {
+    background-color: #000000;
+    border-radius: 0;
+}
+
+.menu li:hover > .submenu {
+    display: block;
+}
+
+.submenu .submenu {
+    top: 0;
+    left: 100%;
+    border-radius: 5px;
+}
+
+
+.titre0 {
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+/*caroussel*/
+.p {
+    color: white;
+    margin-top: -221px;
+    margin-left: -134px;
+    font-size: 30px;
+}
+
+
+.carrousel {
+    position: relative;
+    width: 1149px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 85px;
+    height: 400px;
+    margin-top: 90px;
+    box-shadow: 0px 2px 6px rgb(155, 155, 155);
+} 
+
+  
+  .carrousel-wrapper {
+      display: flex;
+      position: relative;
+      animation: moveCarousel 0.1.15s linear infinite; /* Animation du défilement automatique */
+  }
+  
+  .carrousel-item {
+      min-width: 100%;
+      height: 398px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      animation: fadeIn 20s forwards;
+  }
+  
+  .carrousel-item img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  
+  /* Animation du fade */
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  /* Animation pour faire défiler les images automatiquement */
+  @keyframes moveCarousel {
+      0% {
+          transform: translateX(0);
+      }
+      33.33% {
+          transform: translateX(-100%);
+      }
+      66.66% {
+          transform: translateX(-200%);
+      }
+      100% {
+          transform: translateX(0);
+      }
+  }
+
+  .m {
+    color: white;
+    margin-top: 13px;
+    margin-left: 593px;
+    font-size: 30px;
+  }
+
+  .carrousel2 {
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 1362px;
+    height: 400px;
+    margin-top: -398px;
+    box-shadow: 0px 2px 6px rgb(155, 155, 155);
+}
+
+  
+  .carrousel-wrapper2 {
+      display: flex;
+      position: relative;
+      animation: moveCarousel 0.1.15s linear infinite; /* Animation du défilement automatique */
+  }
+  
+  .carrousel-item2 {
+      min-width: 100%;
+      height: 398px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      animation: fadeIn 20s forwards;
+  }
+  
+  .carrousel-item2 img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  
+  /* Animation du fade */
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  /* Animation pour faire défiler les images automatiquement */
+  @keyframes moveCarousel {
+      0% {
+          transform: translateX(0);
+      }
+      33.33% {
+          transform: translateX(-100%);
+      }
+      66.66% {
+          transform: translateX(-200%);
+      }
+      100% {
+          transform: translateX(0);
+      }
+  }  
+
+.titre1 {
+    color: white;
+    margin-left: 1365px;
+    margin-top: 53px;
+}
+
+
+.logo-app {
+    height: 80px;
+    width: 80px;
+    margin-left: 1488px;
+    margin-top: -51px;
+}
+
+.logo-app2 {
+    height: 80px;
+    width: 80px;
+    margin-left: 16px;
+    margin-top: -51px;
+}
+
+.app {
+    display: flex;
+}
+
+
+.titre2 {
+    color: white;
+    margin-left: 100px;
+    margin-top: 26px;
+}
+
+.video {
+    margin-left: 100px;
+    margin-top: 4px;
+    height: 437px;
+    width: 800px;
+}
+
+.titre3 {
+    color: white;
+    margin-left: 914px;
+    margin-top: -476px;
+}
+
+.croquis {
+    margin-left: 904px;
+    margin-top: 362px;
+    font-size: 80px;
+    color: white;
+}
+
+.croquis1 {
+    margin-left: 1393px;
+    margin-top: -81px;
+    font-size: 80px;
+    color: white;
+}
+
+.carrousel3 {
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 972px;
+    height: 400px;
+    margin-top: -414px;
+}
+
+
+  
+  .carrousel-wrapper3 {
+      display: flex;
+      position: relative;
+      animation: moveCarousel 0.1.15s linear infinite; /* Animation du défilement automatique */
+  }
+  
+  .carrousel-item3 {
+      min-width: 100%;
+      height: 398px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      animation: fadeIn 20s forwards;
+  }
+  
+  .carrousel-item3 img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  
+  /* Animation du fade */
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  /* Animation pour faire défiler les images automatiquement */
+  @keyframes moveCarousel {
+      0% {
+          transform: translateX(0);
+      }
+      33.33% {
+          transform: translateX(-100%);
+      }
+      66.66% {
+          transform: translateX(-200%);
+      }
+      100% {
+          transform: translateX(0);
+      }
+  } 
+
+  .carrousel4 {
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 1464px;
+    height: 400px;
+    margin-top: -413px;
+}
+
+
+
+  
+  .carrousel-wrapper4 {
+      display: flex;
+      position: relative;
+      animation: moveCarousel 0.1.15s linear infinite; /* Animation du défilement automatique */
+  }
+  
+  .carrousel-item4 {
+      min-width: 100%;
+      height: 398px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      animation: fadeIn 20s forwards;
+  }
+  
+  .carrousel-item4 img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  
+  /* Animation du fade */
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  /* Animation pour faire défiler les images automatiquement */
+  @keyframes moveCarousel {
+      0% {
+          transform: translateX(0);
+      }
+      33.33% {
+          transform: translateX(-100%);
+      }
+      66.66% {
+          transform: translateX(-200%);
+      }
+      100% {
+          transform: translateX(0);
+      }
+  }    
+
+  /* Responsive */
+@media screen and (max-width: 1024px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .submenu {
+        position: static;
+        width: 100%;
+    }
+
+    .submenu li {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .carrousel,
+    .carrousel2,
+    .carrousel3,
+    .carrousel4,
+    .carrousel5,
+    .carrousel6,
+    .carrousel7 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo img {
+        height: 40px;
+    }
+    
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        background-color: #444;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+}
