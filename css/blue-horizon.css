@@ -121,8 +121,8 @@ nav {
 /*caroussel*/
 .p {
     color: white;
-    margin-top: -221px;
-    margin-left: -134px;
+    margin-top: -273px;
+    margin-left: -261px;
     font-size: 30px;
 }
 
@@ -152,7 +152,7 @@ nav {
       justify-content: center;
       align-items: center;
       opacity: 0;
-      animation: fadeIn 20s forwards;
+      animation: fadeIn 2s forwards;
   }
   
   .carrousel-item img {
@@ -297,20 +297,21 @@ nav {
 
 .titre3 {
     color: white;
-    margin-left: 84px;
-    margin-top: -60px;
+    margin-left: 90px;
+    margin-top: -56px;
 }
 
 
 .croquis {
-    margin-left: 904px;
-    margin-top: 362px;
+    margin-left: 83px;
+    margin-top: 357px;
     font-size: 80px;
     color: white;
 }
 
+
 .croquis1 {
-    margin-left: 1393px;
+    margin-left: 578px;
     margin-top: -81px;
     font-size: 80px;
     color: white;
@@ -321,7 +322,7 @@ nav {
     width: 400px;
     overflow: hidden;
     border-radius: 10px;
-    margin-left: 972px;
+    margin-left: 151px;
     height: 400px;
     margin-top: -414px;
 }
@@ -382,7 +383,7 @@ nav {
     width: 400px;
     overflow: hidden;
     border-radius: 10px;
-    margin-left: 1464px;
+    margin-left: 680px;
     height: 400px;
     margin-top: -413px;
 }
